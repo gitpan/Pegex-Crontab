@@ -1,0 +1,38 @@
+=encoding utf8
+
+=head1 NAME
+
+Pegex::Crontab - Pegex Crontab Parser
+
+=head1 SYNOPSIS
+
+    my $data = Pegex::Crontab->parse($json);
+
+=head1 DESCRIPTION
+
+Pegex::Crontab is a crontab parser written in Pegex.
+
+=head1 SEE ALSO
+
+=over
+
+=item *
+
+L<Pegex>
+
+=back
+
+=head1 AUTHOR
+
+Ingy döt Net <ingy@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (c) 2011. Ingy döt Net.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+See http://www.perl.com/perl/misc/Artistic.html
+
+=cut
