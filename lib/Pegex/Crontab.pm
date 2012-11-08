@@ -9,17 +9,20 @@
 
 use 5.010;
 
-use Mo 0.30 ();
-use Pegex 0.18 ();
+use Pegex 0.21 ();
 use lexicals 0.21 ();
 
 package Pegex::Crontab;
-use Pegex::Mo;
+use Pegex::Base;
 extends 'Pegex::Module';
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
-use constant receiver => 'Pegex::Crontab::AST';
+use Pegex::Crontab::Grammar;
+use Pegex::Crontab::AST;
+
+has grammar_class => 'Pegex::Crontab::Grammar';
+has receiver_class => 'Pegex::Crontab::AST';
 
 1;
 

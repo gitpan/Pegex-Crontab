@@ -3,11 +3,12 @@ abstract: 'Pegex Crontab Parser'
 author:
   - 'Ingy döt Net <ingy@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
 distribution_type: module
-generated_by: 'Module::Install version 1.02'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,9 +19,9 @@ no_index:
   directory:
     - inc
     - t
+    - xt
 requires:
-  Mo: 0.30
-  Pegex: 0.18
+  Pegex: 0.21
   lexicals: 0.21
   perl: 5.10.0
 resources:
@@ -30,4 +31,4 @@ resources:
     type: git
     url: git://github.com/ingydotnet/pegex-crontab-pm.git
     web: https://github.com/ingydotnet/pegex-crontab-pm/tree
-version: 0.11
+version: 0.12
