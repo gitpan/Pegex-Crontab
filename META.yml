@@ -19,11 +19,11 @@ no_index:
     - xt
     - example
 requires:
-  Pegex: '0.30'
-  lexicals: '0.21'
+  Pegex: '0.36'
+  lexicals: '0.22'
   perl: v5.8.1
 resources:
   bugtracker: https://github.com/ingydotnet/pegex-crontab-pm/issues
   homepage: https://github.com/ingydotnet/pegex-crontab-pm
   repository: https://github.com/ingydotnet/pegex-crontab-pm.git
-version: '0.13'
+version: '0.14'

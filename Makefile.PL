@@ -20,10 +20,10 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Pegex::Crontab",
   "PREREQ_PM" => {
-    "Pegex" => "0.30",
-    "lexicals" => "0.21"
+    "Pegex" => "0.36",
+    "lexicals" => "0.22"
   },
-  "VERSION" => "0.13",
+  "VERSION" => "0.14",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -31,8 +31,8 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Pegex" => "0.30",
-  "lexicals" => "0.21"
+  "Pegex" => "0.36",
+  "lexicals" => "0.22"
 );
 
 

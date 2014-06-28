@@ -34,8 +34,8 @@
       },
       "runtime" : {
          "requires" : {
-            "Pegex" : "0.30",
-            "lexicals" : "0.21",
+            "Pegex" : "0.36",
+            "lexicals" : "0.22",
             "perl" : "v5.8.1"
          }
       }
@@ -52,6 +52,6 @@
          "web" : "https://github.com/ingydotnet/pegex-crontab-pm"
       }
    },
-   "version" : "0.13"
+   "version" : "0.14"
 }
 
