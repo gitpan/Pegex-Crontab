@@ -1,3 +1,6 @@
+0.15 Sat Jun 28 10:53:29 PDT 2014
+ - Apply 2 year old doc PR for @TommyStanton++
+
 0.14 Sat Jun 28 09:47:35 PDT 2014
  - Added a proper parsing test and got things working again.
  - Grammar is now up to date.
