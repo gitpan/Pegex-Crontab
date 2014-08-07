@@ -23,7 +23,7 @@ my %WriteMakefileArgs = (
     "Pegex" => "0.36",
     "lexicals" => "0.22"
   },
-  "VERSION" => "0.17",
+  "VERSION" => "0.18",
   "test" => {
     "TESTS" => "t/*.t"
   }
