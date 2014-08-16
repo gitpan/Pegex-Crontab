@@ -19,7 +19,7 @@ SYNOPSIS
 DESCRIPTION
     Pegex::Crontab is a crontab parser written in Pegex.
 
-SEE
+SEE ALSO
     *   Pegex
 
 AUTHOR

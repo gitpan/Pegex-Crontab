@@ -11,6 +11,7 @@ lib/Pegex/Crontab.pm
 lib/Pegex/Crontab.pod
 lib/Pegex/Crontab/AST.pm
 lib/Pegex/Crontab/Grammar.pm
+t/000-compile-modules.t
 t/parse.t
 t/release-pod-syntax.t
 t/testml/bridge.pm
