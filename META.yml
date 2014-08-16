@@ -26,4 +26,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/pegex-crontab-pm/issues
   homepage: https://github.com/ingydotnet/pegex-crontab-pm
   repository: https://github.com/ingydotnet/pegex-crontab-pm.git
-version: '0.20'
+version: '0.21'
