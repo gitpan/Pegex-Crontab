@@ -16,6 +16,5 @@ t/parse.t
 t/release-pod-syntax.t
 t/testml/bridge.pm
 t/testml/test.tml
-t/use_ok.t
 xt/crontab
 xt/parse.t
